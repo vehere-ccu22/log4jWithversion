@@ -3,7 +3,7 @@ SOURCE_PATH="./jar_files/"
 DES_PATH_ES="/usr/share/logstash/logstash-core/lib/jars/"
 for jar in $(find $DES_PATH_ES -name "log4j*.jar" ); 
 do
-echo -------------$jar-------------------
+#echo -------------$jar-------------------
 A=$(echo $jar | cut -d "." -f 2)
 C=18
 #echo $A

@@ -1,14 +1,8 @@
 #!/bin/bash
 #echo $1
 
-
-#option="${1}" 
-#case ${option} in "--v") echo "File name...."y;; 
-#"--run") echo "Dir name is ...";;
-#esac 
-
 option="${1}"
-case ${option} in  "--v") git tag;;
+case ${option} in  "--v") ./master_v.sh;;
 "--run") ./master_shell.sh;;
 esac
 
